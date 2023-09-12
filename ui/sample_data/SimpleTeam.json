@@ -1,0 +1,128 @@
+{
+  "id": "bc3c8d10-8f2d-40ba-9b2f-02299060a497",
+  "name": "Integrated Campaign Analytics",
+  "description": "",
+  "members": [
+    {
+      "userid": "achoudhu",
+      "role": {
+        "name": "Data Scientist"
+      },
+      "firstname": "Ananya",
+      "lastname": "Choudhury",
+      "email": "achoudhu@ford.com",
+      "imageurl": "https://cdn.nba.com/headshots/nba/latest/260x190/203648.png"
+    },
+    {
+      "userid": "bdavis1",
+      "role": {
+        "name": "Data Scientist"
+      },
+      "firstname": "Benjamin",
+      "lastname": "Davis",
+      "email": "bdavis1@ford.com",
+      "imageurl": "https://cdn.nba.com/headshots/nba/latest/260x190/201144.png"
+    },
+    {
+      "userid": "btaylor1",
+      "role": {
+        "name": "Data Scientist"
+      },
+      "firstname": "Brian",
+      "lastname": "Taylor",
+      "email": "btaylor1@ford.com",
+      "imageurl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630620.png"
+    },
+    {
+      "userid": "dverma",
+      "role": {
+        "name": "Data Scientist"
+      },
+      "firstname": "Devendra",
+      "lastname": "Verma",
+      "email": "dverma@ford.com",
+      "imageurl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626149.png"
+    },
+    {
+      "userid": "edavis1",
+      "role": {
+        "name": "Data Scientist"
+      },
+      "firstname": "Elizabeth",
+      "lastname": "Davis",
+      "email": "edavis1@ford.com",
+      "imageurl": "https://cdn.nba.com/headshots/nba/latest/260x190/202330.png"
+    },
+    {
+      "userid": "gwilson1",
+      "role": {
+        "name": "Data Scientist"
+      },
+      "firstname": "Gordon",
+      "lastname": "Wilson",
+      "email": "gwilson1@ford.com",
+      "imageurl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629723.png"
+    },
+    {
+      "userid": "jjones",
+      "role": {
+        "name": "Go To Market Lead"
+      },
+      "firstname": "James",
+      "lastname": "Jones",
+      "email": "jjones@ford.com",
+      "imageurl": "https://cdn.nba.com/headshots/nba/latest/260x190/201988.png"
+    },
+    {
+      "userid": "jwood",
+      "role": {
+        "name": "Data Scientist"
+      },
+      "firstname": "Jessica",
+      "lastname": "Wood",
+      "email": "jwood@ford.com",
+      "imageurl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626220.png"
+    },
+    {
+      "userid": "kprasad",
+      "role": {
+        "name": "Data Scientist"
+      },
+      "firstname": "Kunal",
+      "lastname": "Prasad",
+      "email": "kprasad@ford.com",
+      "imageurl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627780.png"
+    },
+    {
+      "userid": "mjohnso4",
+      "role": {
+        "name": "Data Scientist"
+      },
+      "firstname": "Michael",
+      "lastname": "Johnson",
+      "email": "mjohnso4@ford.com",
+      "imageurl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629622.png"
+    },
+    {
+      "userid": "pcarter",
+      "role": {
+        "name": "Data Scientist"
+      },
+      "firstname": "Paul",
+      "lastname": "Carter",
+      "email": "pcarter@ford.com",
+      "imageurl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631109.png"
+    },
+    {
+      "userid": "rjohnso1",
+      "role": {
+        "name": "Data Scientist"
+      },
+      "firstname": "Ryan",
+      "lastname": "Johnson",
+      "email": "rjohnso1@ford.com",
+      "imageurl": null
+    }
+  ],
+  "children": []
+}

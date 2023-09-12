@@ -1,0 +1,47 @@
+.teamMemberContainer{
+  display: flex;
+  align-items: center;
+}
+
+.teamMemberPic {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+div.teamMemberAvatar{
+  width: 5.5rem;
+  height: 4.0rem;
+  border: 0.0625rem solid black;
+  box-shadow: 0px 0px 0.25rem 0px rgba(0,0,0,0.75);
+  background-color: #999999
+}
+
+.MuiAvatar-img{
+  width: auto;
+  height: 100%;
+  object-fit: contain;
+}
+
+.teamMemberText {
+  flex: 1;
+  padding-bottom: 0.5rem;
+  text-align: left;
+}
+
+.teamMemberName {
+  padding-top: 1rem;
+  padding-bottom: 0.0rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.teamMemberRole {
+  padding-top: 0.0rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}

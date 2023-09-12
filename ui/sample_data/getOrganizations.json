@@ -1,0 +1,16 @@
+{
+  "data": {
+    "organizations": [
+      {
+        "id": "76314534-9b68-4d7b-82e8-54b882d290e4",
+        "name": "Pro Tech",
+        "levels": 3
+      },
+      {
+        "id": "58cbe83e-8b14-4c22-bb8a-ef0634249185",
+        "name": "FCSD Tech",
+        "levels": 3
+      }
+    ]
+  }
+}

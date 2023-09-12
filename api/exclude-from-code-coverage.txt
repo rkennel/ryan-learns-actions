@@ -1,0 +1,1 @@
+github.com/ford-sandbox/bigwig/api/graph/generated.go
