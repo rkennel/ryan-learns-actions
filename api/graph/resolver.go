@@ -5,7 +5,7 @@ package graph
 import (
 	"context"
 	"github.com/99designs/gqlgen/graphql"
-	"github.com/ford-sandbox/bigwig/api/team_management"
+	"github.com/rkennel/ryan-learns-actions/api/team_management"
 	"gorm.io/gorm"
 )
 

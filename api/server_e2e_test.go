@@ -3,10 +3,9 @@ package main
 import (
 	"github.com/99designs/gqlgen/client"
 	"github.com/99designs/gqlgen/graphql/handler"
-	"github.com/ford-sandbox/bigwig/api/graph"
-	"github.com/ford-sandbox/bigwig/api/graph/model"
-	"github.com/ford-sandbox/bigwig/api/server"
-	"github.com/ford-sandbox/bigwig/api/test/assert"
+	"github.com/rkennel/ryan-learns-actions/api/graph"
+	"github.com/rkennel/ryan-learns-actions/api/graph/model"
+	"github.com/rkennel/ryan-learns-actions/api/test/assert"
 	"log"
 	"testing"
 	"time"
@@ -16,7 +15,7 @@ var resolver *graph.Resolver = nil
 
 func TestMain(m *testing.M) {
 	t1 := time.Now()
-	r, err := server.InitializeDBAndCreateResolver()
+	r, err := InitializeDBAndCreateResolver()
 	t2 := time.Now()
 
 	if err != nil {

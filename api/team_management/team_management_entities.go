@@ -1,8 +1,8 @@
 package team_management
 
 import (
-	"github.com/ford-sandbox/bigwig/api/db"
 	"github.com/google/uuid"
+	"github.com/rkennel/ryan-learns-actions/api/db"
 )
 
 type Organization struct {

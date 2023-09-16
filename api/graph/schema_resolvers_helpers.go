@@ -1,8 +1,8 @@
 package graph
 
 import (
-	"github.com/ford-sandbox/bigwig/api/graph/model"
-	"github.com/ford-sandbox/bigwig/api/team_management"
+	"github.com/rkennel/ryan-learns-actions/api/graph/model"
+	"github.com/rkennel/ryan-learns-actions/api/team_management"
 	"github.com/vektah/gqlparser/v2/ast"
 )
 

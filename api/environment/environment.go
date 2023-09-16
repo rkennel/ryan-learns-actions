@@ -11,6 +11,7 @@ var globalEnvironmentProperties *BigWigEnvironmentProperties = nil
 const PORT_DEFAULT = "8080"
 const ENV_TYPE_LOCAL = "LOCAL"
 const DB_TYPE_SQLITE = "sqlite"
+const DB_TYPE_POSTGRES = "postgres"
 
 type BigWigEnvironmentProperties struct {
 	Environment        string

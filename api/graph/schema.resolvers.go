@@ -6,8 +6,7 @@ package graph
 
 import (
 	"context"
-
-	"github.com/ford-sandbox/bigwig/api/graph/model"
+	"github.com/rkennel/ryan-learns-actions/api/graph/model"
 )
 
 // Organizations is the resolver for the organizations field.

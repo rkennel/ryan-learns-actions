@@ -2,9 +2,9 @@ package local
 
 import (
 	"encoding/csv"
-	database "github.com/ford-sandbox/bigwig/api/db"
-	"github.com/ford-sandbox/bigwig/api/team_management"
 	"github.com/google/uuid"
+	database "github.com/rkennel/ryan-learns-actions/api/db"
+	"github.com/rkennel/ryan-learns-actions/api/team_management"
 	"gorm.io/gorm"
 	"log"
 	"os"
