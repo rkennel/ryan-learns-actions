@@ -38,6 +38,7 @@ jobs:
   docker-release:
     name: Tagged Docker release to Google Artifact Registry
     runs-on: ubuntu-latest
+    needs: build
 
     permissions:
       contents: 'read'
