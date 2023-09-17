@@ -2,8 +2,9 @@
 FROM golang:1.21.1-alpine3.18 as BUILD
 
 # Copy API code from the current context into the "api" directory in the container
+RUN mkdir -p /api
 WORKDIR /api
-COPY go.mod go.sum .  # Copy the go.mod and go.sum files
+COPY go.mod go.sum .
 COPY . .
 
 # Download and install any required third-party dependencies into the container
