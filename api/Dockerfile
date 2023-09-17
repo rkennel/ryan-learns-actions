@@ -5,8 +5,8 @@ FROM golang:1.21.1-alpine3.18 as BUILD
 RUN mkdir -p /api
 WORKDIR /api
 COPY . .
-COPY go.mod ./
-COPY go.sum ./
+COPY ./go.mod .
+COPY ./go.sum .
 
 # Download and install any required third-party dependencies into the container
 RUN go mod download
