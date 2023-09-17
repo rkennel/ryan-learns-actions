@@ -1,11 +1,12 @@
 # Deploy to Cloud Run
 # https://github.com/marketplace/actions/deploy-to-cloud-run
-name: api-deploy-to-cloud-run
+name: API Deploy to Cloud Run
 
 on:
   workflow_dispatch:
   workflow_call:
 
+jobs:
   deploy-to-cloud-run:
     name: Deploys container to cloud run
     runs-on: ubuntu-latest
