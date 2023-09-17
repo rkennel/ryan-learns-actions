@@ -30,6 +30,9 @@ jobs:
         with:
           service: 'bigwig-api'
           image: 'us-central1-docker.pkg.dev/bigwig-399216/bigwig-repository/bigwig-api'
+          env_vars: |
+            BIGWIG_DB_TYPE=postgres
+            BIGWIG_ENVIRONMENT=dev
 
       - name: 'Use output'
         run: 'curl "${{ steps.deploy.outputs.url }}"'
