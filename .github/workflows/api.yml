@@ -24,6 +24,7 @@ jobs:
       uses: actions/setup-go@v4
       with:
         go-version: '1.21'
+        cache-dependency-path: ./api/go.sum
 
     - name: Build
       working-directory: ./api
@@ -69,6 +70,7 @@ jobs:
         name: Tag Docker image and push to Google Artifact Registry
         uses: docker/build-push-action@v5
         with:
+          file: ./api/Dockerfile
           push: true
           tags: |
             us-central1-docker.pkg.dev/bigwig-399216/bigwig-repository/bigwig-api:latest
