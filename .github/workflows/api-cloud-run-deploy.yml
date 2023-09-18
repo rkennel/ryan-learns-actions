@@ -34,6 +34,7 @@ jobs:
           env_vars: |
             BIGWIG_DB_TYPE=postgres
             BIGWIG_ENVIRONMENT=dev
+          secrets: |
             BIGWIG_DB_CONNECTION_STRING=${{ secrets.BIGWIG_DB_CONNECTION_STRING }}
 
       - name: 'Use output'
